@@ -53,29 +53,77 @@ justify-content: space-between;
 
 .pen{
   /*background-image: url('../media/pen.png');*/
+  height: 9rem;
   width: 30%;
   border: 4px solid black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   margin-bottom: 3rem;
 }
 
-.pen img{
+.penpic{
+  background-image: url('../media/pen.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 9rem;
-  padding-top: 2rem;
+  max-width: 100%;
+  /*padding-top: 2rem;
   padding-bottom: 2rem;
+  /*padding-bottom: 2rem;*/
+}
+
+.pen p{
+  background-color: black;
+  /*padding-top: 0.5rem;
+  padding-bottom: 0.5rem;*/
+  /*vertical-align: bottom;*/
+  /*align-content: flex-end;*/
 }
 
 .watch{
-/*background-image: url('../media/watch.png');*/
-width: 30%;
-border: 4px solid black;
-margin-bottom: 3rem;
+  height: 9rem;
+  width: 30%;
+  border: 4px solid black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.watchpic{
+  background-image: url('../media/watch.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 9rem;
+  max-width: 100%;
+}
+
+.watch p{
+  background-color: black;
 }
 
 .glasses{
   /*background-image: url('../media/glasses.png');*/
+  height: 9rem;
   width: 30%;
   border: 4px solid black;
-  margin-bottom:  3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.glassespic{
+  background-image: url('../media/glasses.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 9rem;
+  max-width: 100%;
+}
+
+.glasses p{
+  background-color: black;
 }
 
 .location{
