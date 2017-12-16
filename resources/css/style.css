@@ -188,40 +188,31 @@ margin-bottom: 3rem;*/
   margin-bottom: 4rem;
 }
 
-.location{
+.location, .hours{
   /*margin-bottom: 4rem;*/
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
   width: 35%;
 }
 
-.lone{
+.lone, .lthree{
   background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
 }
 
 .ltwo{
   color: black;
 }
 
-.lthree{
-  background-color: black;
-}
 
 .lfour{
   color: black;
 }
 
-.hours{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  width: 35%;
-}
-
 .footer{
   height: 5rem;
   background-color: black;
+  display: flex;
 }
 
 @@media query screen and (max-width: 1024px){
