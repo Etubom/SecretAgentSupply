@@ -1,0 +1,76 @@
+RESPONSIVE DESIGN
+Secret Agent Supply
+Using the tools on your personal computer, you’ll build a responsive website for Secret Agent Supply Inc., the world’s leader in secret agent tech.
+
+In this project, you will build a full desktop website, then you’ll use your knowledge of responsive web design to make the Secret Agent Supply’s website look great on any device.
+
+In addition to the step-by-step instructions below, we will provide the necessary images and colors to complete the website.
+
+The solution to this project is displayed to the right. Use this as a reference along the way. Mark the tasks below as complete when you finish them. This will ensure you are staying on track.
+
+Mark the tasks as complete by checking them off
+1.
+Open your file manager and create a new folder called SecretAgentSupply. Inside of this folder, create the following items:
+
+A file named index.html.
+A folder named resources.
+Inside of the resources folder, create the following:
+
+A folder named css with a style.css file, and a reset.css file inside. The reset.css file should contain this code.
+2.
+Open index.html in a text editor and add the boilerplate HTML.
+
+Title the page Secret Agent Supply Inc..
+
+Also, link resources/css/style.css and resources/css/reset.css in the <head> section of index.html.
+
+In addition, you’ll need the following images to complete the web page:
+
+Logo image
+Main banner background image
+Pen image
+Watch image
+Glasses image
+3.
+Click here to look at the finished page design. Using the finished design, create the HTML structure, including the logo, main banner, navigation, product grid, location, hours, and footer in index.html.
+
+4.
+Nice work! At this point, you should have the page's HTML written.
+
+Begin writing the CSS to make the page match the desktop view of the page.
+
+For reference, click here to see a design spec of the website's design. Design specs outline important design specifications to help you replicate the design in HTML and CSS.
+
+5.
+Great! Now you should have a good looking desktop site.
+
+Now, resize the page to different widths, from large to small. You may notice the page breaks, or does not appear correctly when viewed on smaller screens.
+
+Write a media query that targets a screen width less than 1024 pixels. 1024 pixels is near the size of a tablet in the portrait orientation.
+
+6.
+Inside of the 1024 pixels media query, make changes so that the site appears as in the tablet design here. You can find the design spec here.
+
+The changes include:
+
+Changing the font sizes in the main banner.
+Making the navigation display a "Menu" button instead of all the menu options.
+Making only two products appear, both taking approximately half the screen's width.
+7.
+Resize your browser to an even smaller width, to simulate a phone's screen.
+
+Write a media query that targets screens with a width less than 470 pixels.
+
+8.
+Refer to the mobile design here and the corresponding design spec here. Use these resources to write CSS that makes the page consistent with the phone-sized designs.
+
+The changes include:
+
+Making the headline appear at the bottom of the banner and take up the width of the screen.
+Changing the banner's font size to match the design.
+In the product section, making only one product visible. It should take up 90% of the width of the screen.
+Making the "Location" and "Hours" elements stack on top of each other.
+The footer's text should be centered in the screen.
+Resize your page and make sure that the appearance of the page changes in response to the screen's width.
+
+Congratulations! You just built a responsive website that looks great no matter what device it's viewed on.
